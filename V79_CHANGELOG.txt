@@ -1,0 +1,9 @@
+V79 FINAL CLEANUP
+- Stok obat / barang masuk-keluar / cek apotek disembunyikan dari UI.
+- Obat dan jasa tambahan dihapus dari billing terpisah; biaya obat dianggap masuk ke master tindakan.
+- Dokter rawat inap tetap bisa membuat estimasi tindakan/rawat inap dengan Qty/Hari, Print Estimasi, dan Kirim ke Billing FO.
+- Billing FO menerima estimasi dokter, tetap bisa diedit, tindakan pakai Qty, rawat inap pakai Hari.
+- DP rawat inap punya metode Cash/Transfer/Debit/QRIS di billing FO.
+- DP tetap dicatat, pelunasan sisa setelah rawat inap tetap bisa jadi Lunas, dan transaksi masuk akuntansi via PaymentPage.
+- Registrasi memakai placeholder pilihan seperti Pilih jenis hewan, Pilih ras, Pilih poli, Pilih dokter, dll.
+- RFID sudah menampilkan riwayat pasien sebelumnya.
